@@ -1,0 +1,2 @@
+<h2>This is a php included document - edited</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, aut debitis iure dicta aliquid totam pariatur similique ad nulla quaerat corrupti rerum maxime cumque officiis eveniet nam molestias maiores id.</p>
