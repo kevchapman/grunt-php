@@ -56,14 +56,14 @@ module.exports = function(grunt) {
 			options: {
 				port: 9000,
 				base: config.dev+'/',
-				hostname: 'localhost'
+				hostname: '0.0.0.0'
 			},
 			livereload:{
 				options: {
 					middleware: function (connect) {
 						return [
 							lrSnippet,
-							gateway(__dirname + '/dev', {
+							gateway(__dirname + '/'+config.dev, {
 								'.php': 'php-cgi'
 							}),
 							mountFolder(connect, '.tmp'),
